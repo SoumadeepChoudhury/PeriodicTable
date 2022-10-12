@@ -1,0 +1,1762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:theme="@style/ThemeOverlay.PeriodicTable.FullscreenContainer"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine2"
+            android:layout_width="104dp"
+            android:layout_height="36dp"
+            android:background="@drawable/border"
+            android:clickable="false"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="@string/LanthanideSeries"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.009"
+            app:layout_constraintStart_toEndOf="@+id/LanthanidePeriod6"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/period7"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:text="@string/Period7"
+            app:layout_constraintBottom_toTopOf="@+id/LanthanidePeriod6"
+            app:layout_constraintEnd_toEndOf="@+id/LanthanidePeriod6" />
+
+        <TextView
+            android:id="@+id/period6"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:text="@string/Period6"
+            app:layout_constraintBottom_toTopOf="@+id/period7"
+            app:layout_constraintEnd_toEndOf="@+id/period7"
+            app:layout_constraintStart_toStartOf="@+id/period7" />
+
+        <TextView
+            android:id="@+id/period5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:text="@string/Period5"
+            app:layout_constraintBottom_toTopOf="@+id/period6"
+            app:layout_constraintEnd_toEndOf="@+id/period6"
+            app:layout_constraintStart_toStartOf="@+id/period6" />
+
+        <TextView
+            android:id="@+id/period4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:text="@string/Period4"
+            app:layout_constraintBottom_toTopOf="@+id/period5"
+            app:layout_constraintEnd_toEndOf="@+id/period5"
+            app:layout_constraintStart_toStartOf="@+id/period5" />
+
+        <TextView
+            android:id="@+id/period3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:text="@string/Period3"
+            app:layout_constraintBottom_toTopOf="@+id/period4"
+            app:layout_constraintEnd_toEndOf="@+id/period4"
+            app:layout_constraintStart_toStartOf="@+id/period4" />
+
+        <TextView
+            android:id="@+id/period2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:text="@string/Period2"
+            app:layout_constraintBottom_toTopOf="@+id/period3"
+            app:layout_constraintEnd_toEndOf="@+id/period3"
+            app:layout_constraintStart_toStartOf="@+id/period3" />
+
+
+        <TextView
+            android:id="@+id/period1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:text="@string/Period1"
+            app:layout_constraintBottom_toTopOf="@+id/period2"
+            app:layout_constraintEnd_toEndOf="@+id/period2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/period2" />
+
+        <TextView
+            android:id="@+id/LanthanidePeriod6"
+            android:layout_width="27dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/border"
+            android:padding="8sp"
+            android:text="@string/Period6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.89" />
+
+        <TextView
+            android:id="@+id/ActinidePeriod7"
+            android:layout_width="26dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/border"
+            android:padding="8sp"
+            android:text="@string/Period7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LanthanidePeriod6" />
+
+        <!--Actinide-->
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="102dp"
+            android:layout_height="31dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/border"
+            android:clickable="false"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="@string/ActinideSeries"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.013"
+            app:layout_constraintStart_toEndOf="@+id/ActinidePeriod7"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/e90"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/editTextTextMultiLine"
+            app:layout_constraintTop_toTopOf="@+id/editTextTextMultiLine" />
+
+        <TextView
+            android:id="@+id/e91"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e90"
+            app:layout_constraintTop_toTopOf="@+id/e90" />
+
+        <TextView
+            android:id="@+id/e92"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e91"
+            app:layout_constraintTop_toTopOf="@+id/e91" />
+
+        <TextView
+            android:id="@+id/e93"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e92"
+            app:layout_constraintTop_toTopOf="@+id/e92" />
+
+        <TextView
+            android:id="@+id/e94"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e93"
+            app:layout_constraintTop_toTopOf="@+id/e93" />
+
+        <TextView
+            android:id="@+id/e95"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e94"
+            app:layout_constraintTop_toTopOf="@+id/e94" />
+
+        <TextView
+            android:id="@+id/e96"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e95"
+            app:layout_constraintTop_toTopOf="@+id/e95" />
+
+        <TextView
+            android:id="@+id/e97"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e96"
+            app:layout_constraintTop_toTopOf="@+id/e96" />
+
+        <TextView
+            android:id="@+id/e98"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e97"
+            app:layout_constraintTop_toTopOf="@+id/e97" />
+
+        <TextView
+            android:id="@+id/e99"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e98"
+            app:layout_constraintTop_toTopOf="@+id/e98" />
+
+        <TextView
+            android:id="@+id/e100"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e99"
+            app:layout_constraintTop_toTopOf="@+id/e99" />
+
+        <TextView
+            android:id="@+id/e101"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e100"
+            app:layout_constraintTop_toTopOf="@+id/e100" />
+
+        <TextView
+            android:id="@+id/e102"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e101"
+            app:layout_constraintTop_toTopOf="@+id/e101" />
+
+        <!-- Lanthanide -->
+        <TextView
+            android:id="@+id/e103"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toEndOf="@+id/e102"
+            app:layout_constraintTop_toTopOf="@+id/e102" />
+
+        <TextView
+            android:id="@+id/e58"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/editTextTextMultiLine2"
+            app:layout_constraintTop_toTopOf="@+id/editTextTextMultiLine2" />
+
+        <TextView
+            android:id="@+id/e59"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e58"
+            app:layout_constraintTop_toTopOf="@+id/e58" />
+
+        <TextView
+            android:id="@+id/e60"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e59"
+            app:layout_constraintTop_toTopOf="@+id/e59" />
+
+        <TextView
+            android:id="@+id/e61"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e60"
+            app:layout_constraintTop_toTopOf="@+id/e60" />
+
+        <TextView
+            android:id="@+id/e62"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e61"
+            app:layout_constraintTop_toTopOf="@+id/e61" />
+
+        <TextView
+            android:id="@+id/e63"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e62"
+            app:layout_constraintTop_toTopOf="@+id/e62" />
+
+        <TextView
+            android:id="@+id/e64"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e63"
+            app:layout_constraintTop_toTopOf="@+id/e63" />
+
+        <TextView
+            android:id="@+id/e65"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e64"
+            app:layout_constraintTop_toTopOf="@+id/e64" />
+
+        <TextView
+            android:id="@+id/e66"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e65"
+            app:layout_constraintTop_toTopOf="@+id/e65" />
+
+        <TextView
+            android:id="@+id/e67"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e66"
+            app:layout_constraintTop_toTopOf="@+id/e66" />
+
+        <TextView
+            android:id="@+id/e68"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e67"
+            app:layout_constraintTop_toTopOf="@+id/e67" />
+
+        <TextView
+            android:id="@+id/e69"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e68"
+            app:layout_constraintTop_toTopOf="@+id/e68" />
+
+        <TextView
+            android:id="@+id/e70"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:background="@drawable/border"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e69"
+            app:layout_constraintTop_toTopOf="@+id/e69" />
+
+        <!-- Group 1 -->
+
+        <TextView
+            android:id="@+id/e71"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/e70"
+            app:layout_constraintTop_toTopOf="@+id/e70" />
+
+        <TextView
+            android:id="@+id/e3"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/period3"
+            app:layout_constraintStart_toEndOf="@+id/period2"
+            app:layout_constraintTop_toBottomOf="@+id/e1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/e11"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/period4"
+            app:layout_constraintStart_toEndOf="@+id/period3"
+            app:layout_constraintTop_toBottomOf="@+id/e3" />
+
+        <TextView
+            android:id="@+id/e37"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/period6"
+            app:layout_constraintStart_toEndOf="@+id/period5"
+            app:layout_constraintTop_toBottomOf="@+id/e19" />
+
+        <TextView
+            android:id="@+id/e55"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/period7"
+            app:layout_constraintStart_toEndOf="@+id/period6"
+            app:layout_constraintTop_toBottomOf="@+id/e37" />
+
+        <!-- Group 2-->
+
+
+        <TextView
+            android:id="@+id/e87"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="20dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine2"
+            app:layout_constraintStart_toEndOf="@+id/period7"
+            app:layout_constraintTop_toBottomOf="@+id/e55"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/e19"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/period5"
+            app:layout_constraintStart_toEndOf="@+id/period4"
+            app:layout_constraintTop_toBottomOf="@+id/e11"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/e1"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/period1"
+            app:layout_constraintStart_toEndOf="@+id/period1"
+            app:layout_constraintTop_toTopOf="@+id/period1"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/e4"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/e3"
+            app:layout_constraintStart_toEndOf="@+id/e3"
+            app:layout_constraintTop_toBottomOf="@+id/e1" />
+
+        <TextView
+            android:id="@+id/e12"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/e11"
+            app:layout_constraintStart_toEndOf="@+id/e11"
+            app:layout_constraintTop_toBottomOf="@+id/e4" />
+
+        <TextView
+            android:id="@+id/e20"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/e19"
+            app:layout_constraintStart_toEndOf="@+id/e19"
+            app:layout_constraintTop_toBottomOf="@+id/e12" />
+
+        <TextView
+            android:id="@+id/e38"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/e37"
+            app:layout_constraintStart_toEndOf="@+id/e37"
+            app:layout_constraintTop_toBottomOf="@+id/e20" />
+
+
+        <TextView
+            android:id="@+id/e56"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/e55"
+            app:layout_constraintStart_toEndOf="@+id/e55"
+            app:layout_constraintTop_toBottomOf="@+id/e38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/e88"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e87"
+            app:layout_constraintStart_toEndOf="@+id/e87"
+            app:layout_constraintTop_toBottomOf="@+id/e56" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group1"
+            app:layout_constraintBottom_toTopOf="@+id/e1"
+            app:layout_constraintEnd_toEndOf="@+id/e1"
+            app:layout_constraintHorizontal_bias="0.692"
+            app:layout_constraintStart_toEndOf="@+id/period1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group2"
+            app:layout_constraintBottom_toTopOf="@+id/e4"
+            app:layout_constraintStart_toEndOf="@+id/e1"
+            app:layout_constraintTop_toTopOf="@+id/e1" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="18dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/border"
+            android:paddingLeft="4sp"
+            android:text="@string/Group3"
+            app:layout_constraintStart_toEndOf="@+id/e12"
+            app:layout_constraintTop_toBottomOf="@+id/e4" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="18dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/border"
+            android:paddingLeft="4sp"
+            android:text="@string/Group4"
+            app:layout_constraintBottom_toBottomOf="@+id/textView3"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toTopOf="@+id/textView3"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="18dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/border"
+            android:paddingLeft="4sp"
+            android:text="@string/Group5"
+            app:layout_constraintBottom_toBottomOf="@+id/textView4"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toTopOf="@+id/textView4"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="18dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/border"
+            android:paddingLeft="4sp"
+            android:text="@string/Group6"
+            app:layout_constraintBottom_toBottomOf="@+id/textView5"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="18dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/border"
+            android:paddingLeft="4sp"
+            android:text="@string/Group7"
+            app:layout_constraintBottom_toBottomOf="@+id/textView6"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="18dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/border"
+            android:paddingLeft="4sp"
+            android:text="@string/Group8"
+            app:layout_constraintBottom_toBottomOf="@+id/textView7"
+            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintTop_toTopOf="@+id/textView7"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group9"
+            app:layout_constraintBottom_toBottomOf="@+id/textView8"
+            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintTop_toTopOf="@+id/textView8"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group10"
+            app:layout_constraintBottom_toBottomOf="@+id/textView9"
+            app:layout_constraintStart_toEndOf="@+id/textView9"
+            app:layout_constraintTop_toTopOf="@+id/textView9"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group11"
+            app:layout_constraintBottom_toBottomOf="@+id/textView10"
+            app:layout_constraintStart_toEndOf="@+id/textView10"
+            app:layout_constraintTop_toTopOf="@+id/textView10"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group12"
+            app:layout_constraintBottom_toBottomOf="@+id/textView11"
+            app:layout_constraintStart_toEndOf="@+id/textView11"
+            app:layout_constraintTop_toTopOf="@+id/textView11"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group13"
+            app:layout_constraintBottom_toTopOf="@+id/e5"
+            app:layout_constraintEnd_toEndOf="@+id/e5"
+            app:layout_constraintStart_toStartOf="@+id/e5" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group14"
+            app:layout_constraintBottom_toTopOf="@+id/e6"
+            app:layout_constraintEnd_toEndOf="@+id/e6"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/e5"
+            app:layout_constraintTop_toTopOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group15"
+            app:layout_constraintBottom_toTopOf="@+id/e7"
+            app:layout_constraintEnd_toEndOf="@+id/e7"
+            app:layout_constraintStart_toStartOf="@+id/e7"
+            app:layout_constraintTop_toTopOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group16"
+            app:layout_constraintBottom_toTopOf="@+id/e8"
+            app:layout_constraintEnd_toEndOf="@+id/e8"
+            app:layout_constraintStart_toStartOf="@+id/e8"
+            app:layout_constraintTop_toTopOf="@+id/textView15"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group17"
+            app:layout_constraintBottom_toTopOf="@+id/e9"
+            app:layout_constraintEnd_toEndOf="@+id/e9"
+            app:layout_constraintStart_toEndOf="@+id/e8"
+            app:layout_constraintTop_toTopOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="27dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8sp"
+            android:text="@string/Group18"
+            app:layout_constraintBottom_toTopOf="@+id/e2"
+            app:layout_constraintEnd_toEndOf="@+id/e2"
+            app:layout_constraintStart_toStartOf="@+id/e2" />
+
+        <TextView
+            android:id="@+id/e89"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e88"
+            app:layout_constraintStart_toEndOf="@+id/e88"
+            app:layout_constraintTop_toBottomOf="@+id/e57"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/e21"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e20"
+            app:layout_constraintStart_toEndOf="@+id/e20"
+            app:layout_constraintTop_toBottomOf="@+id/e12" />
+
+        <TextView
+            android:id="@+id/e39"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e38"
+            app:layout_constraintStart_toEndOf="@+id/e38"
+            app:layout_constraintTop_toBottomOf="@+id/e21" />
+
+        <TextView
+            android:id="@+id/e57"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e56"
+            app:layout_constraintStart_toEndOf="@+id/e56"
+            app:layout_constraintTop_toBottomOf="@+id/e39" />
+
+        <TextView
+            android:id="@+id/e22"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e21"
+            app:layout_constraintStart_toEndOf="@+id/e21"
+            app:layout_constraintTop_toTopOf="@+id/e21" />
+
+        <TextView
+            android:id="@+id/e40"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e39"
+            app:layout_constraintStart_toEndOf="@+id/e39"
+            app:layout_constraintTop_toBottomOf="@+id/e22" />
+
+        <TextView
+            android:id="@+id/e72"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e57"
+            app:layout_constraintStart_toEndOf="@+id/e57"
+            app:layout_constraintTop_toBottomOf="@+id/e40" />
+
+        <TextView
+            android:id="@+id/e104"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e89"
+            app:layout_constraintStart_toEndOf="@+id/e89"
+            app:layout_constraintTop_toBottomOf="@+id/e72" />
+
+        <TextView
+            android:id="@+id/e23"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e22"
+            app:layout_constraintStart_toEndOf="@+id/e22"
+            app:layout_constraintTop_toTopOf="@+id/e22" />
+
+        <TextView
+            android:id="@+id/e41"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e40"
+            app:layout_constraintStart_toEndOf="@+id/e40"
+            app:layout_constraintTop_toBottomOf="@+id/e23" />
+
+        <TextView
+            android:id="@+id/e73"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e72"
+            app:layout_constraintStart_toEndOf="@+id/e72"
+            app:layout_constraintTop_toBottomOf="@+id/e41" />
+
+        <TextView
+            android:id="@+id/e105"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e104"
+            app:layout_constraintStart_toEndOf="@+id/e104"
+            app:layout_constraintTop_toBottomOf="@+id/e73" />
+
+        <TextView
+            android:id="@+id/e24"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e23"
+            app:layout_constraintStart_toEndOf="@+id/e23"
+            app:layout_constraintTop_toTopOf="@+id/e23" />
+
+        <TextView
+            android:id="@+id/e42"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e41"
+            app:layout_constraintStart_toEndOf="@+id/e41"
+            app:layout_constraintTop_toBottomOf="@+id/e24" />
+
+        <TextView
+            android:id="@+id/e74"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e73"
+            app:layout_constraintStart_toEndOf="@+id/e73"
+            app:layout_constraintTop_toBottomOf="@+id/e42" />
+
+        <TextView
+            android:id="@+id/e106"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e105"
+            app:layout_constraintStart_toEndOf="@+id/e105"
+            app:layout_constraintTop_toBottomOf="@+id/e74" />
+
+        <TextView
+            android:id="@+id/e25"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e24"
+            app:layout_constraintStart_toEndOf="@+id/e24"
+            app:layout_constraintTop_toTopOf="@+id/e24" />
+
+        <TextView
+            android:id="@+id/e43"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e42"
+            app:layout_constraintStart_toEndOf="@+id/e42"
+            app:layout_constraintTop_toBottomOf="@+id/e25" />
+
+        <TextView
+            android:id="@+id/e75"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e74"
+            app:layout_constraintStart_toEndOf="@+id/e74"
+            app:layout_constraintTop_toBottomOf="@+id/e43" />
+
+        <TextView
+            android:id="@+id/e107"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e106"
+            app:layout_constraintStart_toEndOf="@+id/e106"
+            app:layout_constraintTop_toBottomOf="@+id/e75" />
+
+        <TextView
+            android:id="@+id/e26"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e25"
+            app:layout_constraintStart_toEndOf="@+id/e25"
+            app:layout_constraintTop_toTopOf="@+id/e25" />
+
+        <TextView
+            android:id="@+id/e44"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e43"
+            app:layout_constraintStart_toEndOf="@+id/e43"
+            app:layout_constraintTop_toBottomOf="@+id/e26" />
+
+        <TextView
+            android:id="@+id/e76"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e75"
+            app:layout_constraintStart_toEndOf="@+id/e75"
+            app:layout_constraintTop_toBottomOf="@+id/e44" />
+
+        <TextView
+            android:id="@+id/e108"
+            android:layout_width="26dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/e60"
+            app:layout_constraintStart_toEndOf="@+id/e107"
+            app:layout_constraintTop_toBottomOf="@+id/e76"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/e27"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e26"
+            app:layout_constraintStart_toEndOf="@+id/e26"
+            app:layout_constraintTop_toTopOf="@+id/e26" />
+
+        <TextView
+            android:id="@+id/e45"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e44"
+            app:layout_constraintStart_toEndOf="@+id/e44"
+            app:layout_constraintTop_toBottomOf="@+id/e27" />
+
+        <TextView
+            android:id="@+id/e77"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e76"
+            app:layout_constraintStart_toEndOf="@+id/e76"
+            app:layout_constraintTop_toBottomOf="@+id/e45" />
+
+        <TextView
+            android:id="@+id/e109"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e108"
+            app:layout_constraintStart_toEndOf="@+id/e108"
+            app:layout_constraintTop_toBottomOf="@+id/e77" />
+
+        <TextView
+            android:id="@+id/e28"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e27"
+            app:layout_constraintStart_toEndOf="@+id/e27"
+            app:layout_constraintTop_toTopOf="@+id/e27" />
+
+        <TextView
+            android:id="@+id/e46"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e45"
+            app:layout_constraintStart_toEndOf="@+id/e45"
+            app:layout_constraintTop_toBottomOf="@+id/e28" />
+
+        <TextView
+            android:id="@+id/e78"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e77"
+            app:layout_constraintStart_toEndOf="@+id/e77"
+            app:layout_constraintTop_toBottomOf="@+id/e46" />
+
+        <TextView
+            android:id="@+id/e110"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e109"
+            app:layout_constraintStart_toEndOf="@+id/e109"
+            app:layout_constraintTop_toBottomOf="@+id/e78" />
+
+        <TextView
+            android:id="@+id/e29"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e28"
+            app:layout_constraintStart_toEndOf="@+id/e28"
+            app:layout_constraintTop_toTopOf="@+id/e28" />
+
+        <TextView
+            android:id="@+id/e47"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e46"
+            app:layout_constraintStart_toEndOf="@+id/e46"
+            app:layout_constraintTop_toBottomOf="@+id/e29" />
+
+        <TextView
+            android:id="@+id/e79"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e78"
+            app:layout_constraintStart_toEndOf="@+id/e78"
+            app:layout_constraintTop_toBottomOf="@+id/e47" />
+
+        <TextView
+            android:id="@+id/e111"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e110"
+            app:layout_constraintStart_toEndOf="@+id/e110"
+            app:layout_constraintTop_toBottomOf="@+id/e79" />
+
+        <TextView
+            android:id="@+id/e30"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e29"
+            app:layout_constraintStart_toEndOf="@+id/e29"
+            app:layout_constraintTop_toTopOf="@+id/e29" />
+
+        <TextView
+            android:id="@+id/e48"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e47"
+            app:layout_constraintStart_toEndOf="@+id/e47"
+            app:layout_constraintTop_toBottomOf="@+id/e30" />
+
+        <TextView
+            android:id="@+id/e80"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="2dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e79"
+            app:layout_constraintStart_toEndOf="@+id/e79"
+            app:layout_constraintTop_toBottomOf="@+id/e48" />
+
+        <TextView
+            android:id="@+id/e112"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e111"
+            app:layout_constraintStart_toEndOf="@+id/e111"
+            app:layout_constraintTop_toBottomOf="@+id/e80" />
+
+        <TextView
+            android:id="@+id/e31"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e30"
+            app:layout_constraintStart_toEndOf="@+id/e30"
+            app:layout_constraintTop_toBottomOf="@+id/e13"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/e13"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e30"
+            app:layout_constraintTop_toBottomOf="@+id/e5" />
+
+        <TextView
+            android:id="@+id/e5"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/textView13"
+            app:layout_constraintEnd_toEndOf="@+id/e13"
+            app:layout_constraintStart_toStartOf="@+id/e13"
+            tools:layout_editor_absoluteY="68dp" />
+
+        <TextView
+            android:id="@+id/e49"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e48"
+            app:layout_constraintStart_toEndOf="@+id/e48"
+            app:layout_constraintTop_toBottomOf="@+id/e31" />
+
+        <TextView
+            android:id="@+id/e81"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e80"
+            app:layout_constraintStart_toEndOf="@+id/e80"
+            app:layout_constraintTop_toBottomOf="@+id/e49" />
+
+        <TextView
+            android:id="@+id/e113"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e112"
+            app:layout_constraintStart_toEndOf="@+id/e112"
+            app:layout_constraintTop_toBottomOf="@+id/e81" />
+
+        <TextView
+            android:id="@+id/e6"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e5"
+            app:layout_constraintStart_toEndOf="@+id/e5"
+            app:layout_constraintTop_toTopOf="@+id/e5" />
+
+        <TextView
+            android:id="@+id/e14"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="3dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e13"
+            app:layout_constraintStart_toEndOf="@+id/e13"
+            app:layout_constraintTop_toBottomOf="@+id/e6" />
+
+        <TextView
+            android:id="@+id/e32"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e31"
+            app:layout_constraintStart_toEndOf="@+id/e31"
+            app:layout_constraintTop_toBottomOf="@+id/e14" />
+
+        <TextView
+            android:id="@+id/e50"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e49"
+            app:layout_constraintStart_toEndOf="@+id/e49"
+            app:layout_constraintTop_toBottomOf="@+id/e32" />
+
+        <TextView
+            android:id="@+id/e82"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e81"
+            app:layout_constraintStart_toEndOf="@+id/e81"
+            app:layout_constraintTop_toBottomOf="@+id/e50" />
+
+        <TextView
+            android:id="@+id/e114"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e113"
+            app:layout_constraintStart_toEndOf="@+id/e113"
+            app:layout_constraintTop_toBottomOf="@+id/e82" />
+
+        <TextView
+            android:id="@+id/e7"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e6"
+            app:layout_constraintStart_toEndOf="@+id/e6"
+            app:layout_constraintTop_toTopOf="@+id/e6" />
+
+        <TextView
+            android:id="@+id/e8"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e7"
+            app:layout_constraintStart_toEndOf="@+id/e7"
+            app:layout_constraintTop_toTopOf="@+id/e7" />
+
+        <TextView
+            android:id="@+id/e9"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e8"
+            app:layout_constraintStart_toEndOf="@+id/e8"
+            app:layout_constraintTop_toTopOf="@+id/e8" />
+
+        <TextView
+            android:id="@+id/e10"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/e9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/e9"
+            app:layout_constraintTop_toTopOf="@+id/e9"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/e15"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e14"
+            app:layout_constraintStart_toEndOf="@+id/e14"
+            app:layout_constraintTop_toBottomOf="@+id/e7" />
+
+        <TextView
+            android:id="@+id/e33"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e32"
+            app:layout_constraintStart_toEndOf="@+id/e32"
+            app:layout_constraintTop_toBottomOf="@+id/e15" />
+
+        <TextView
+            android:id="@+id/e51"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e50"
+            app:layout_constraintStart_toEndOf="@+id/e50"
+            app:layout_constraintTop_toBottomOf="@+id/e33" />
+
+        <TextView
+            android:id="@+id/e83"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e82"
+            app:layout_constraintStart_toEndOf="@+id/e82"
+            app:layout_constraintTop_toBottomOf="@+id/e51" />
+
+        <TextView
+            android:id="@+id/e115"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e114"
+            app:layout_constraintStart_toEndOf="@+id/e114"
+            app:layout_constraintTop_toBottomOf="@+id/e83" />
+
+        <TextView
+            android:id="@+id/e16"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="1dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e15"
+            app:layout_constraintStart_toEndOf="@+id/e15"
+            app:layout_constraintTop_toBottomOf="@+id/e8" />
+
+        <TextView
+            android:id="@+id/e34"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e33"
+            app:layout_constraintStart_toEndOf="@+id/e33"
+            app:layout_constraintTop_toBottomOf="@+id/e16" />
+
+        <TextView
+            android:id="@+id/e52"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e51"
+            app:layout_constraintStart_toEndOf="@+id/e51"
+            app:layout_constraintTop_toBottomOf="@+id/e34" />
+
+        <TextView
+            android:id="@+id/e84"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e83"
+            app:layout_constraintStart_toEndOf="@+id/e83"
+            app:layout_constraintTop_toBottomOf="@+id/e52" />
+
+        <TextView
+            android:id="@+id/e116"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e115"
+            app:layout_constraintStart_toEndOf="@+id/e115"
+            app:layout_constraintTop_toBottomOf="@+id/e84" />
+
+        <TextView
+            android:id="@+id/e17"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintStart_toEndOf="@+id/e16"
+            app:layout_constraintTop_toBottomOf="@+id/e9" />
+
+        <TextView
+            android:id="@+id/e35"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e34"
+            app:layout_constraintStart_toEndOf="@+id/e34"
+            app:layout_constraintTop_toBottomOf="@+id/e17" />
+
+        <TextView
+            android:id="@+id/e53"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e52"
+            app:layout_constraintStart_toEndOf="@+id/e52"
+            app:layout_constraintTop_toBottomOf="@+id/e35" />
+
+        <TextView
+            android:id="@+id/e85"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e84"
+            app:layout_constraintStart_toEndOf="@+id/e84"
+            app:layout_constraintTop_toBottomOf="@+id/e53" />
+
+        <TextView
+            android:id="@+id/e117"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:padding="10sp"
+            android:clickable="true"
+            android:onClick="click"
+            app:layout_constraintBottom_toBottomOf="@+id/e116"
+            app:layout_constraintStart_toEndOf="@+id/e116"
+            app:layout_constraintTop_toBottomOf="@+id/e85" />
+
+        <TextView
+            android:id="@+id/e2"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/e10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toEndOf="@+id/e9" />
+
+        <TextView
+            android:id="@+id/e18"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/e17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/e17"
+            app:layout_constraintTop_toBottomOf="@+id/e10"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/e36"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/e35"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/e35"
+            app:layout_constraintTop_toBottomOf="@+id/e18"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/e54"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/e53"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/e53"
+            app:layout_constraintTop_toBottomOf="@+id/e36"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/questionView"
+            android:layout_width="239dp"
+            android:layout_height="38dp"
+            android:background="@drawable/border"
+            android:padding="8sp"
+            android:textAlignment="center"
+            android:textColor="@color/light_blue_A400"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView13"
+            app:layout_constraintHorizontal_bias="0.458"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.128" />
+
+        <TextView
+            android:id="@+id/e86"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/e85"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/e85"
+            app:layout_constraintTop_toBottomOf="@+id/e54"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/e118"
+            android:layout_width="35sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:padding="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/e117"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/e117"
+            app:layout_constraintTop_toBottomOf="@+id/e86"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

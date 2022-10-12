@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PeriodicTable</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="backGroundImageSplash">BackgroundImageSplash</string>
+    <string name="LanthanideSeries">Lanthanide Series</string>
+    <string name="ActinideSeries">Actinide Series</string>
+    <string name="Period7">7</string>
+    <string name="Period6">6</string>
+    <string name="Period5">5</string>
+    <string name="Period4">4</string>
+    <string name="Period3">3</string>
+    <string name="Period2">2</string>
+    <string name="Period1">1</string>
+    <string name="Group1">1</string>
+    <string name="Group2">2</string>
+    <string name="Group3">3</string>
+    <string name="Group4">4</string>
+    <string name="Group5">5</string>
+    <string name="Group6">6</string>
+    <string name="Group7">7</string>
+    <string name="Group8">8</string>
+    <string name="Group9">9</string>
+    <string name="Group10">10</string>
+    <string name="Group11">11</string>
+    <string name="Group12">12</string>
+    <string name="Group13">13</string>
+    <string name="Group14">14</string>
+    <string name="Group15">15</string>
+    <string name="Group16">16</string>
+    <string name="Group17">17</string>
+    <string name="Group18">18</string>
+    <string name="Group1Period1">Hydrogen</string>
+</resources>
